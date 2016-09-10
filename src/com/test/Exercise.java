@@ -1,6 +1,7 @@
 package com.test;
 
 import com.exercise.clock.Clock;
+import com.exercise.fallenBall.fallenBall;
 import com.exercise.primenumber.primeNum;
 
 import java.util.Timer;
@@ -11,7 +12,8 @@ import java.util.Timer;
 public class Exercise {
      public static void main(String[] args)
      {
-         new Timer().schedule(new Clock(),1000,1000);
+//         new Timer().schedule(new Clock(),1000,1000);
 //         new primeNum().run();
+         new fallenBall().run();
      }
 }

@@ -2,6 +2,7 @@ package com.exercise.primenumber;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by Fyol93 on 2016/9/9.
@@ -14,20 +15,23 @@ public class primeNum {
 
     public void run()
     {
+        Scanner scanner = new Scanner(System.in);
         for(int a=1;a<=1000;a++) {
             allNum.add(a);
         }
             System.out.println
                 ("**********************************************************" + "\n" +
-                 "* 1............Users input numbers they need by themself *" + "\n" +
+                 "* 1.................Input  numbers you need to calculate *" + "\n" +
                  "* 2...System automaticlly output prime number under 1000 *" + "\n" +
                  "* Input '1' OR '2':                                      *" + "\n" +
                  "**********************************************************" + "\n");
-        char choice = 2;
+        char choice = 0;
         while(choice == 2)
         {
             switch (choice){
-                case 1:break;
+                case 1:
+
+                    break;
                 case 2:
                     pNum.add(2);
 //                    int s1 = pNum.get(0);
