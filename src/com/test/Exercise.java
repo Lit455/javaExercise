@@ -1,5 +1,6 @@
 package com.test;
 
+import com.exercise.numberUtil.numberUtil;
 import com.exercise.uclock.uClock;
 
 import java.util.Timer;
@@ -10,10 +11,11 @@ import java.util.Timer;
 public class Exercise {
      public static void main(String[] args)
      {
-         new Timer().schedule(new uClock(),1000,1000);
+//         new Timer().schedule(new uClock(),1000,1000);
 //         new primeNum().run();
 //         new fallenBall().run();
 //         new pingPong().run();
 //         new week().run();
+         new numberUtil().run();
      }
 }
