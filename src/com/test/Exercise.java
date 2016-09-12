@@ -1,10 +1,6 @@
 package com.test;
 
-import com.exercise.clock.Clock;
-import com.exercise.fallenBall.fallenBall;
-import com.exercise.primenumber.primeNum;
-
-import java.util.Timer;
+import com.exercise.week.week;
 
 /**
  * Created by Fyol93 on 2016/9/9.
@@ -14,6 +10,8 @@ public class Exercise {
      {
 //         new Timer().schedule(new Clock(),1000,1000);
 //         new primeNum().run();
-         new fallenBall().run();
+//         new fallenBall().run();
+//         new pingPong().run();
+         new week().run();
      }
 }
